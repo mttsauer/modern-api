@@ -4,7 +4,7 @@ const Painting = require('./models/Painting');
 
 
 const server = hapi.server({
-    port: 4000,
+    port: $PORT,
     host: 'localhost'
 });
 
